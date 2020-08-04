@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        bash py -c print(1)
+        bash "py -c print(1)"
       }
     }
 
