@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        echo "你好呀"
+        sh "echo %PATH%"
       }
     }
 
