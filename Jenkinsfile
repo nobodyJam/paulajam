@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        py -c "print('hello')"
+        py -c print(1)
       }
     }
 
