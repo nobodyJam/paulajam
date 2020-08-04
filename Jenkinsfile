@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        echo "hello12333"
+        echo "你好呀"
       }
     }
 
